@@ -1,0 +1,1 @@
+const { gecerliTagler, hakSayisi } = require('kod');

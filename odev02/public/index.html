@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Kediyi Bul</title>
+    <link rel="stylesheet" href="style.css"/>
+    <script src="../src/kod.js"></script>
+	<script src="http://code.jquery.com/jquery-3.4.1.min.js"></script>
+</head>
+<body>
+    <h2>Ked Bulmaca</h2>
+    <h4>Bu oyunda 3 kapalı kart içindeki kediyi bulman gerekmektedir. İlk tercihte kedi kartını bulamaz isen 2. seçim hakkı tanınacaktır.</h4>
+    <img id="img0" class="kart" src="../img/kart.jpg" onclick="Basildi(this.id);">
+    <img id="img1" class="kart" src="../img/kart.jpg" onclick="Basildi(this.id);">
+    <img id="img2" class="kart" src="../img/kart.jpg" onclick="Basildi(this.id);">
+    <div class="mesaj">
+        <p id="alanId">Kedi kartını bulmak için kartın üzerine tıklamalısın.</p>
+        <p id="kazandiId" style="display: none">Tebrikler, kazandınız, yeni oyun oynamak için <span class="link" onclick="location.reload(true);">buraya</span> tıklayınız</p>
+        <p id="yenildiId" style="display: none">Kaybettiniz, yeni oyun oynamak için <span class="link" onclick="location.reload(true);">buraya</span> tıklayınız</p>
+    </div>
+</body>
+</html>
